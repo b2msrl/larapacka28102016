@@ -19,10 +19,10 @@ $versions = GitVersionCollection::create($dir)
 
 return new Sami($iterator,array(
     'theme'                => 'default',
-    'title'                => '@@@package_name API',
+    'title'                => 'larapacka28102016 API',
     'versions'             => $versions,
-    'build_dir'            => '@@@doc_destination/build/%version%',
-    'cache_dir'            => '@@@doc_destination/cache/%version%',
+    'build_dir'            => 'Y:/Public/laravel-packages/www/doc/b2msrl/larapacka28102016/build/%version%',
+    'cache_dir'            => 'Y:/Public/laravel-packages/www/doc/b2msrl/larapacka28102016/cache/%version%',
     'default_opened_level' => 2,
 ));
 

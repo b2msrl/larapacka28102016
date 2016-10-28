@@ -1,6 +1,6 @@
 ## WORK IN PROGRESS
-# @@@package_name
-@@@package_description
+# larapacka28102016
+test workbench
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -13,7 +13,7 @@
 Table of Contents
 =================
 
-  * [@@@package_name](#@@@package_name)
+  * [larapacka28102016](#larapacka28102016)
   * [Table of Contents](#table-of-contents)
   * [Prerequisites](#prerequisites)
   * [Install](#install)
@@ -36,7 +36,7 @@ Table of Contents
 This package can be installed through Composer.
 
 ``` bash
-composer require @@@vendor/@@@package_name
+composer require padosoft/larapacka28102016
 ```
 You must install this service provider.
 
@@ -44,16 +44,16 @@ You must install this service provider.
 // config/app.php
 'provider' => [
     ...
-    @@@namespacevendor\@@@namespacepackage_name\@@@providerpackage_nameServiceProvider::class,
+    Padosoft\Larapacka28102016\Larapacka28102016ServiceProvider::class,
     ...
 ];
 ```
 
 You can publish the config file of this package with this command:
 ``` bash
-php artisan vendor:publish --provider="@@@namespacevendor\@@@namespacepackage_name\@@@providerpackage_nameServiceProvider"
+php artisan vendor:publish --provider="Padosoft\Larapacka28102016\Larapacka28102016ServiceProvider"
 ```
-The following config file will be published in `config/@@@package_name.php`
+The following config file will be published in `config/larapacka28102016.php`
 ``` php
 [
 
@@ -81,7 +81,7 @@ If you discover any security related issues, please email  instead of using the 
 
 # API Documentation
 
-Please see API documentation at http://@@@organization.github.io/@@@package_name
+Please see API documentation at http://b2msrl.github.io/larapacka28102016
 
 # Credits
 
@@ -96,18 +96,18 @@ Padosoft is a software house based in Florence, Italy. Specialized in E-commerce
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 
-[ico-version]: https://img.shields.io/packagist/v/@@@vendor/@@@package_name.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/padosoft/larapacka28102016.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/@@@vendor/@@@package_name/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/@@@vendor/@@@package_name.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/@@@vendor/@@@package_name.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/@@@vendor/@@@package_name.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/padosoft/larapacka28102016/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/padosoft/larapacka28102016.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/padosoft/larapacka28102016.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/padosoft/larapacka28102016.svg?style=flat-square
 [ico-sensiolab]: https://insight.sensiolabs.com/projects/@@@sensiolab/small.png
 
-[link-packagist]: https://packagist.org/packages/@@@vendor/@@@package_name
-[link-travis]: https://travis-ci.org/@@@vendor/@@@package_name
-[link-scrutinizer]: https://scrutinizer-ci.com/g/@@@vendor/@@@package_name/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/@@@vendor/@@@package_name
-[link-downloads]: https://packagist.org/packages/@@@vendor/@@@package_name
+[link-packagist]: https://packagist.org/packages/padosoft/larapacka28102016
+[link-travis]: https://travis-ci.org/padosoft/larapacka28102016
+[link-scrutinizer]: https://scrutinizer-ci.com/g/padosoft/larapacka28102016/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/padosoft/larapacka28102016
+[link-downloads]: https://packagist.org/packages/padosoft/larapacka28102016
 // TODO : @@@sensiolabs
 [link-sensiolab]: https://insight.sensiolabs.com/projects/@@@sensiolabs

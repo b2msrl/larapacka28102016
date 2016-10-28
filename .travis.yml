@@ -36,22 +36,22 @@ before_install:
   - cd ./laravel
   - composer require padosoft/test
   - composer require padosoft/laravel-test
-  #- composer config repositories.padosoft git https://github.com/@@@vendor/@@@package_name
-  - composer require @@@vendor/@@@package_name dev-master
+  #- composer config repositories.padosoft git https://github.com/padosoft/larapacka28102016
+  - composer require padosoft/larapacka28102016 dev-master
   - if [[ $LARAVEL_VERSION == '5.0' ]]; then composer require mockery/mockery; fi
   - chmod 777 -R ./
   - ./vendor/padosoft/laravel-composer-security/tests/config/sedCommand.sh
   - composer update
   - ./vendor/padosoft/laravel-composer-security/tests/config/sedCommandProvider.sh
   - rm ./.env
-  - cp ./vendor/@@@vendor/@@@package_name/tests/config/.env.dist ./.env
+  - cp ./vendor/padosoft/larapacka28102016/tests/config/.env.dist ./.env
   - php artisan vendor:publish
   - rvm 1.9.3 do gem install mime-types -v 2.6.2
   - gem install mailcatcher
   - mailcatcher
 
 script:
-  - vendor/bin/phpunit --configuration ./vendor/@@@vendor/@@@package_name/phpunit.xml.dist --testsuite Package --coverage-text --coverage-clover=coverage.clover
+  - vendor/bin/phpunit --configuration ./vendor/padosoft/larapacka28102016/phpunit.xml.dist --testsuite Package --coverage-text --coverage-clover=coverage.clover
 
 after_script:
   #- wget https://scrutinizer-ci.com/ocular.phar
